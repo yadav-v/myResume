@@ -1,0 +1,39 @@
+:root {
+  --bs-primary: #fd690d;
+  --bs-primary-rgb: 253, 105, 13;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #000;
+}
+
+.headerSection {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 10px 0;
+}
+.homeSection,
+.aboutSection,
+.contactSection,
+.skillsSection,
+.projectsSection {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.homeSection {
+  background: #020024;
+  background: linear-gradient(
+    37deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
